@@ -10,15 +10,24 @@ import suit from "../../Assets/images/suit.jpeg"
 import Carousel from 'react-bootstrap/Carousel';
 import "../../Assets/css/main1.css"
 import Button from 'react-bootstrap/Button';
-
-
+import { Link } from 'react-router-dom';
 import { FaRegStar } from "react-icons/fa6";
 import Footer from '../Footer/Footer';
 const About = () => {
   return (
     <>
       <Header />
+
+      <div className='contact  row'>
+<div className='cont-logo col-12 col-md-12'>
+<h1>ABOUT</h1>
+ <Link to="/"><button>Home</button></Link>
+<Link to="/about"><button>Contact</button></Link>
+
+</div>  
+     </div>
       <div className='container'>
+   
 
 
         <div className='row'>
@@ -229,7 +238,7 @@ const About = () => {
           </div>
 
 
-          <div className='row'>
+          <div className='row pb-5'>
             <div className='col-12 col-md-4 mt-4'>
               <Card className='price'>
                 <div className='basic'>

@@ -6,6 +6,8 @@ import App from '../App'
 import CreateUser from '../Component/Pages/CreateUser'
 import About from '../Component/Pages/About'
 import Contact from '../Component/Pages/Contact'
+import Gallery from '../Component/Pages/Gallery'
+import ReadMore from '../Component/Pages/ReadMore'
 
 const AllRoutes = () => {
     return (
@@ -16,6 +18,8 @@ const AllRoutes = () => {
                 <Route path='/createuser' element={<CreateUser/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/contact' element={<Contact/>}/>
+                <Route path='/gallery' element={<Gallery/>}/>
+                <Route path='/readmore' element={<ReadMore/>}/>
                 
             </Routes>
         </>

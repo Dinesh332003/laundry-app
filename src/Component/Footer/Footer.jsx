@@ -10,9 +10,11 @@ import { RiFacebookFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-  //   <div className='footer'>
-      <div className='footer container'>
-       <div className='row'>
+<>
+
+ 
+      <div className='footer container-fluid'>
+       <div className='footer-d row'>
         <div className=' clean col-md-3 col-sm-12'>
            <h1>Clean</h1>
            <p>Volup amet magna clita <br /> tempor. Tempor sea eos <br /> vero ipsum. Lorem lorem sit <br />
@@ -35,10 +37,10 @@ const Footer = () => {
 
         <div className=' links footer-link col-md-3 col-sm-12'>
              <h4>Quick Links</h4>
-          <h6><Link to="/login">Home</Link></h6>
-          <h6><Link to="/">About</Link></h6>
-          <h6><Link to="/">Contact</Link></h6>
-          <h6><Link to="/">Login</Link></h6>
+          <h6><Link to="/">Home</Link></h6>
+          <h6><Link to="/about">About</Link></h6>
+          <h6><Link to="/contact">Contact</Link></h6>
+          <h6><Link to="/login">Login</Link></h6>
         
         </div>
 
@@ -49,10 +51,12 @@ const Footer = () => {
              <p>Rebum labore lorem <br /> dolores kasd est, et ipsum <br />
               amet et at kasd, ipsum  sea <br /> tempor magna tempor. <br />
                Accu kasd sed ea duo ipsum.</p>
+
+               <input type="text" size="10" placeholder='Your Email' /><button>Sign Up</button>
         </div>
        </div>
        </div>
-    // </div>
+       </>
 
   )
 }
